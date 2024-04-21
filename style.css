@@ -1,0 +1,130 @@
+* {
+    font-family: montserrat;
+}
+
+.section{
+    display: flex;
+    justify-content: center;
+    gap: 5rem;
+    height: 80vh;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 100px;
+    border-radius: 50px;
+    box-shadow: 0 1px 6px rgba(0, 0, 0, 0.12), 0 1px 4px rgba(0, 0, 0, 0.24);
+}
+
+.section-stack{
+    display: block;
+    justify-content: center;
+    gap: 5rem;
+    height: 80vh;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 100px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 1px 6px rgba(0, 0, 0, 0.12), 0 1px 4px rgba(0, 0, 0, 0.24);
+}
+
+.section-borderless{
+    display: flex;
+    justify-content: center;
+    gap: 5rem;
+    height: 80vh;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 100px;
+    border-radius: 10px;
+}
+
+.section-borderless-stack{
+    display: block;
+    justify-content: center;
+    gap: 5rem;
+    height: 80vh;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 100px;
+    border-radius: 50px;
+    text-align: center;
+}
+
+#register-stack{
+    height: fit-content;
+    width: fit-content;
+    margin: auto;
+    padding: 20px;
+    margin-bottom: 0px;
+}
+
+
+#login-stack{
+    height: fit-content;
+    width: fit-content;
+    margin: auto;
+    padding: 20px;
+}
+
+#login-container{
+    height: fit-content;
+    margin-bottom: 0px;
+}
+
+#projects-container{
+    height: fit-content;
+    padding: 10px;
+}
+
+#projects-table{
+    margin: auto;
+}
+
+#projects-table td{
+    border-bottom: 1px solid #ddd;
+}
+
+#search-table{
+    margin: auto;
+    
+}
+
+#table-container{
+    width: fit-content;
+    height: fit-content;
+    margin: auto;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+#input-box{
+    width: 200px;
+}
+
+#add-container{
+    height: fit-content;
+    padding: 20px;
+    padding-top: 5px;
+    width: fit-content;
+    margin: auto;
+}
+
+#projectView-container{
+    width: fit-content;
+    height: fit-content;
+    margin: auto;
+    padding: 20px;
+    padding-top: 5px;
+}
+
+#edit-container{
+    width: fit-content;
+    height: fit-content;
+    margin: auto;
+    padding: 20px;
+    padding-top: 5px;
+}
