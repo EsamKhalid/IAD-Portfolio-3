@@ -66,6 +66,7 @@ if(isset($_POST['submitted'])){
     $titleCheck = $db->prepare("SELECT title FROM projects WHERE title = ?");
     $titleCheck->execute(array($_POST['title']));
     
+    //checks for title
     if(!empty($_POST['title'])){
         $title = $_POST['title'];
     }

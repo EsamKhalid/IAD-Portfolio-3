@@ -48,12 +48,8 @@ else{
     }
     else{
         echo "<p> you are now logged in as, $username! , only the creator of this project can edit it's details</p>";
-    }
-
-    
+    }   
 }
-
-
 //prepares db to get the project details based on the title
 $rows = $db->prepare("SELECT * FROM projects WHERE title=?");
 $rows->execute(array($projectTitle));
